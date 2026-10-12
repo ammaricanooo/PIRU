@@ -1,0 +1,35 @@
+TRASH SMART - MODEL KONSEP 3D
+
+Cara paling mudah:
+1. Ekstrak seluruh ZIP.
+2. Buka Penampil-3D.html di Chrome atau Edge. Internet diperlukan untuk memuat mesin 3D.
+3. Seret model untuk memutar, gulir atau cubit untuk zoom.
+4. Tombol Buka pintu, Buka tutup bawah dan Lihat rangka memperlihatkan susunan bagian dalam.
+
+Untuk Blender:
+File > Import > glTF 2.0, pilih Trash-Smart.glb.
+Setiap komponen adalah objek terpisah. Satuan file: meter.
+Kelompok Pintu organik/anorganik dapat diputar pada sumbu vertikal lokal.
+Kelompok Tutup bawah organik/anorganik dapat diputar pada sumbu engsel lokal.
+Tulisan kategori pada penampil browser merupakan label tambahan; GLB berisi pelat label berwarna.
+
+SUMBER DAN BATAS MODEL
+Sumber: sketsa-kerja-trash-smart-cap.pdf, Rev A 05 Oktober 2026, halaman 1-3.
+Ukuran rancangan utama: lebar 800 mm, dalam 500 mm, atap depan 900 mm dan belakang 1000 mm.
+Rangka 25 x 25 mm; kulit kabinet 0,6 mm; dua tong luar maksimum 330 x 400 x 550 mm.
+Tong digambar pada batas maksimum tersebut; bibir tong sekitar 675 mm dari lantai.
+Model ini untuk visualisasi konsep dan susunan, bukan gambar produksi yang disahkan.
+Ukuran/posisi engsel, pegangan, layar, kotak kontrol, sensor, pengunci, ketebalan tong dan kaki merupakan asumsi visual.
+Pipa rangka digambarkan sebagai batang solid untuk menjaga model ringan; tidak memodelkan rongga dan tebal dinding 1,2 mm.
+Panel segitiga sisi atas ditambahkan untuk mengikuti profil atap.
+Sambungan las, baut, kabel dan gerak pengunci tidak dimodelkan.
+Pelat QR adalah placeholder tanpa QR aktif. Elektronik tidak menjalankan fungsi atau simulasi.
+Gerakan pintu/tutup memperagakan akses; celah dan tabrakan komponen belum divalidasi secara mekanis.
+Validasikan tong dan komponen asli sebelum fabrikasi, sesuai catatan pada PDF.
+
+REVISI BAKI DETEKSI - 09 OKTOBER 2026
+Bagian atas sekarang terbuka dengan empat dinding baki/corong tetap.
+Dua tutup dipindahkan ke dasar baki. Dalam konsep ini, sampah ditahan di atas tutup untuk deteksi, kemudian tutup berputar ke bawah agar sampah masuk tong.
+Sensor deteksi ditampilkan sebagai placeholder di dinding belakang baki, terpisah dari sensor kapasitas tong. Jenis sensor dan algoritme deteksi belum ditentukan. Model ini tidak mendeteksi atau mengklasifikasikan sampah secara nyata.
+Dimensi konsep baru (asumsi visual, bukan spesifikasi final): mulut baki 350 x 450 mm, lubang dasar 220 x 240 mm, dasar sekitar 790 mm dari lantai. Ukuran harus disesuaikan dengan jenis sampah, sensor dan mekanisme yang dipilih.
+Dua jalur organik dan anorganik tetap terpisah; tidak ditambahkan mekanisme sortir otomatis antarjalur.
